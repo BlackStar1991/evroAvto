@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "ProximaNovaRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+  url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype"),
+  url("../fonts/ProximaNovaSemiBold/ProximaNovaRegular.svg#ProximaNovaRegular") format('svg');
+}
+@font-face {
+  font-family: "ProximaNovaSemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ProximaNovaSemiBold/ProximaNovaSemiBold.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/ProximaNovaSemiBold/ProximaNovaSemiBold.woff") format("woff"),
+  url("../fonts/ProximaNovaSemiBold/ProximaNovaSemiBold.ttf") format("truetype"),
+  url("../fonts/ProximaNovaSemiBold/ProximaNovaSemiBold.svg#ProximaNovaSemiBold") format('svg');
+}
+@font-face {
+  font-family: "ProximaNovaExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ProximaNovaExtraBold/ProximaNovaExtraBold.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/ProximaNovaExtraBold/ProximaNovaExtraBold.woff") format("woff"),
+  url("../fonts/ProximaNovaExtraBold/ProximaNovaExtraBold.ttf") format("truetype"),
+  url("../fonts/ProximaNovaExtraBold/ProximaNovaExtraBold.svg#ProximaNovaExtraBold") format('svg');
+}
+
+@font-face {
+  font-family: "Kalam-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Kalam-Bold/Kalam-Bold.eot");
+  src: url("../fonts/Kalam-Bold/Kalam-Bold.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/Kalam-Bold/Kalam-Bold.woff") format("woff"),
+  url("../fonts/Kalam-Bold/Kalam-Bold.ttf") format("truetype");
+}
