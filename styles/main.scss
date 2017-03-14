@@ -1,3 +1,4 @@
+@charset "utf-8";
 @import "mymixin";
 @import "fonts.css";
 
@@ -136,6 +137,8 @@ ul, li {
 ///////////////////
 
 $colorbg: #2e64fe;
+$colorbgTextBloc: #e6e6e6;
+
 $colorCrumbs: #727272;
 $colorCrumbsActiv: #222222;
 $colorMainPhrase: #303945;
@@ -265,6 +268,7 @@ main {
   display: block;
   width: 100%;
 
+
   border: 1px solid #000;
 
 }
@@ -299,6 +303,7 @@ main {
 }
 .box-aboutGbo__itemText{
   width: 100%;
+  margin-top: 3%;
   border: 1px solid #000;
   color: $colorAvtoMark;
 
@@ -348,4 +353,104 @@ main {
 .footerImg{
   width: 100%;
   margin-top: 5%;
+}
+
+//////////////// HTML_model
+
+
+.box-avtoModdel__mainPhrase{
+  font-size: 26px;
+  text-align: center;
+  color: $colorMainPhrase;
+  //font-family: proxima-bold;
+}
+
+
+.box-avtoModdel{
+  width: 100%;
+  //border: 1px solid red;
+}
+
+.box-avtoModdel__img{
+
+  width: 300px;
+  height: 200px;
+  margin-top: 5%;
+  background-color: $colorbgTextBloc;
+  //border: 1px solid black;
+}
+
+.box-avtoModdel__name{
+
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+}
+
+///////////////////////
+
+.box-gboInfo{
+  width: 100%;
+  border: 1px solid black;
+}
+.box-gboInfo_item{
+  width: 100%;
+  //height: 150px;
+  margin-top: 2%;
+  border: 1px solid red;
+}
+
+.box-gboInfo_img{
+  float: left;
+  margin: 0.5%;
+  display: block;
+  //border: 1px solid red;
+}
+
+.box-gboInfo__price{
+  font-size: 16px;
+  font-weight:bold;
+  color: black;
+  margin: 1%;
+
+}
+.prace-gbo__uah{
+
+  padding: 0 2%;
+  &:after{
+    content: "\20B4";
+  }
+  &:before{
+    content: "\2248 ";
+  }
+
+}
+.prace-gbo__euro{
+  padding: 0 2%;
+  &:after{
+    content: "\20AC";
+  }
+}
+
+
+.box-gboInfo_text{
+  //display: block;
+  width: 100%;
+  height: 100%;
+  //display: inline-block;
+  font-size: 14px;
+  color: #000;
+}
+
+////////
+
+.box-navigationInfo{
+  border: 1px solid red;
+
+
+  width: 100%;
+  height: 200px;
+  margin-top: 1%;
+  color: #000;
+
 }
