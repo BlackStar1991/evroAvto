@@ -1,6 +1,5 @@
 window.onload = function () {
 
-    console.log("ok");
 
     $(".box-sliderOne__items").lightSlider({
         item: 3,
@@ -15,9 +14,17 @@ window.onload = function () {
             el.lightGallery();
         }
 
-
-
-
-
     });
+
+    $(window).on("load", function () {
+        $('.box-gbo__offer-image').liCover({
+            parent: $('.box-gbo__offer'),
+            position: 'absolute',
+            veticalAlign: 'middle',
+            align: 'center'
+        });
+    });
+
+
+
 };

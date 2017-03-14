@@ -92,18 +92,6 @@ form {
   margin: 0;
 }
 
-//a {
-//
-//  -moz-transition: all 0.2s linear;
-//  -o-transition: all 0.2s linear;
-//  -webkit-transition: all 0.2s linear;
-//  transition: all 0.2s linear;
-//  text-decoration: none;
-//  outline: none;
-//  //-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-//  color: #000;
-//}
-
 input[type=submit], input[type=button], button {
   -webkit-appearance: none;
   outline: none;
@@ -190,7 +178,7 @@ $colorAvtoMark: #424242;
   display: inline-block;
   float: left;
   margin: 0 auto;
-  width: calc(100% /6);
+  width: calc(100% / 6);
   height: 30px;
   line-height: 2;
 
@@ -201,7 +189,7 @@ $colorAvtoMark: #424242;
     margin: 0 auto;
     text-align: center;
     //border: 1px solid #000;
-    &:hover{
+    &:hover {
       color: #fff;
       text-decoration: underline;
     }
@@ -268,12 +256,12 @@ main {
   display: block;
   width: 100%;
 
-
   border: 1px solid #000;
 
 }
-.box-avto:hover .box-avto__mark{
-  font-weight:bold;
+
+.box-avto:hover .box-avto__mark {
+  font-weight: bold;
 }
 
 .box-avto__image {
@@ -295,34 +283,33 @@ main {
 
 //////////////
 
-
-.box-aboutGbo{
+.box-aboutGbo {
   margin-top: 30px;
   width: 100%;
   height: 100%;
 }
-.box-aboutGbo__itemText{
+
+.box-aboutGbo__itemText {
   width: 100%;
   margin-top: 3%;
   border: 1px solid #000;
   color: $colorAvtoMark;
 
 }
-.box-aboutGbo__phrase{
+
+.box-aboutGbo__phrase {
 
   height: 30px;
-  line-height:1;
-
+  line-height: 1;
 
   width: 100%;
   text-align: center;
   font-size: 16px;
   margin: 2% 0;
 
-
 }
 
-.box-aboutGbo__mainText{
+.box-aboutGbo__mainText {
   width: 100%;
   height: 100%;
   padding: 0 20px;
@@ -332,17 +319,17 @@ main {
 
 ///////////////////// SLIDER 1 GBO
 
-
-.box-sliderOne{
+.box-sliderOne {
   width: 100%;
   margin-top: 3%;
 }
-.box-sliderOne__items{
+
+.box-sliderOne__items {
   width: 100%;
   height: 300px;
 }
 
-.box-sliderOne__item{
+.box-sliderOne__item {
   width: 100%;
   height: 300px;
   overflow: hidden;
@@ -350,28 +337,26 @@ main {
 
 ///////////// FOOTER
 
-.footerImg{
+.footerImg {
   width: 100%;
   margin-top: 5%;
 }
 
 //////////////// HTML_model
 
-
-.box-avtoModdel__mainPhrase{
+.box-avtoModdel__mainPhrase {
   font-size: 26px;
   text-align: center;
   color: $colorMainPhrase;
   //font-family: proxima-bold;
 }
 
-
-.box-avtoModdel{
+.box-avtoModdel {
   width: 100%;
   //border: 1px solid red;
 }
 
-.box-avtoModdel__img{
+.box-avtoModdel__img {
 
   width: 300px;
   height: 200px;
@@ -380,7 +365,7 @@ main {
   //border: 1px solid black;
 }
 
-.box-avtoModdel__name{
+.box-avtoModdel__name {
 
   text-align: center;
   font-size: 16px;
@@ -389,51 +374,53 @@ main {
 
 ///////////////////////
 
-.box-gboInfo{
+.box-gboInfo {
   width: 100%;
   border: 1px solid black;
 }
-.box-gboInfo_item{
+
+.box-gboInfo_item {
   width: 100%;
   //height: 150px;
   margin-top: 2%;
   border: 1px solid red;
 }
 
-.box-gboInfo_img{
+.box-gboInfo_img {
   float: left;
   margin: 0.5%;
   display: block;
   //border: 1px solid red;
 }
 
-.box-gboInfo__price{
+.box-gboInfo__price {
   font-size: 16px;
-  font-weight:bold;
+  font-weight: bold;
   color: black;
   margin: 1%;
 
 }
-.prace-gbo__uah{
+
+.prace-gbo__uah {
 
   padding: 0 2%;
-  &:after{
+  &:after {
     content: "\20B4";
   }
-  &:before{
+  &:before {
     content: "\2248 ";
   }
 
 }
-.prace-gbo__euro{
+
+.prace-gbo__euro {
   padding: 0 2%;
-  &:after{
+  &:after {
     content: "\20AC";
   }
 }
 
-
-.box-gboInfo_text{
+.box-gboInfo_text {
   //display: block;
   width: 100%;
   height: 100%;
@@ -444,13 +431,62 @@ main {
 
 ////////
 
-.box-navigationInfo{
+.box-navigationInfo {
   border: 1px solid red;
-
-
   width: 100%;
-  height: 200px;
+  min-height: 200px;
   margin-top: 1%;
   color: #000;
+
+}
+
+//////////////////// INDEX_offers
+
+.box-offers {
+  width: 100%;
+}
+
+.box-gbo__link:hover .box-gbo__offer-image {
+  transform: scale(1.2);
+  transition: transform 1.5s;
+}
+
+.box-gbo__offer {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  margin: 4% 0;
+  border-radius: 20px;
+
+  -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.75);
+
+  background-color: $colorbgTextBloc;
+  border: 1px solid #000;
+  overflow: hidden;
+
+}
+
+.box-gbo__offer-image {
+  width: 100%;
+
+  transform: scale(1);
+  transition: transform 1.5s;
+}
+
+.box-gbo__offer-text {
+  position: absolute;
+  top: 15%;
+  right: 4%;
+
+  font-size: 3em;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: black 2px 2px 0,
+  black -2px -2px 0,
+  black -2px 2px 0,
+  black 2px -2px 0;
 
 }
