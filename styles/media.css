@@ -7,96 +7,50 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-    .block_logo {
-        margin-top: 20px;
-        margin-left: 50% !important;
+
+
+
+    .box-aboutGbo__mainText {
+        padding: 0 10px;
     }
 
-    .block_navigation {
-        clear: both;
+    .box-sliderOne__item {
+        max-height: 150px;
     }
 
-    header .block_navigation .nav_botton {
-        display: block;
-        margin-bottom: 6px;
-    }
-
-    header .categories li {
-        display: none;
-        clear: both;
-        float: left;
-        width: 100px;
-        text-align: center;
-        margin: 2px 0 !important;
-        border: 1px solid #000;
-    }
-
-    a.categori_active {
-        font-weight: bold;
-        border-bottom: none;
-    }
-
-    .wrapen-bloc_block_bag {
-        float: right;
-    }
-
-    main .block_category {
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-
-    main .kindsProducts ul {
-        margin-top: 0;
-    }
-
-    main .kindsProducts li a {
-
-        margin-left: 30px;
-    }
-
-    footer .block_logo {
-        display: none;
-    }
-
-    footer .block_navigation,
-    footer .categories {
-        margin: 10px auto;
-    }
-
-    footer .block_logo {
-        margin-left: 10px;
-    }
-
-    footer .categories li {
-
-        float: left;
-        width: 100px;
-        text-align: center;
-        margin: 0 !important;
-
-    }
-
-    footer .block_aboutCompany {
-        float: right;
-        margin-top: 10px;
-
-    }
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
 
+    .box-aboutGbo__mainText {
+        margin-top: 1%;
+        padding: 0 5px;
+    }
+    .box-sliderOne__item {
+        max-height: 100px;
+    }
+
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
 
+
+    .box-sliderOne__item {
+        max-height: 90px;
+    }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
 
+
+    .box-sliderOne__item {
+        max-height: 80px;
+    }
 }
 
 /*==========  Mobile First Method  ==========*/
