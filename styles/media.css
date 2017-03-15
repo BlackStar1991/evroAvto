@@ -24,6 +24,19 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
 
+
+    .sub-header__item {
+        border: 1px solid #000;
+        width: 100%;
+
+        padding: 0;
+    }
+    .sub-header__item a{
+        width: 100%;
+
+        padding: 0;
+    }
+
     .box-aboutGbo__mainText {
         margin-top: 1%;
         padding: 0 5px;
