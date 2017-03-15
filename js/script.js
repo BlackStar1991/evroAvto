@@ -27,4 +27,30 @@ window.onload = function () {
 
 
 
+
+    $(".box-sliderOffers__items").lightSlider({
+        item: 5,
+        adaptiveHeight: true,
+        autoWidth: false,
+        loop: true,
+        controls: true,
+        keyPress: false,
+        // gallery: true,
+        slideMargin: 1,
+        // thumbMargin: 2,
+        // thumbItem:0,
+
+        onSliderLoad: function(el) {
+            el.lightGallery({
+                thumbnail:true,
+                animateThumb: false,
+                showThumbByDefault: false
+            });
+        }
+
+    });
+
+
+
+
 };
