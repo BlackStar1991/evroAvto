@@ -18,7 +18,13 @@
         max-height: 150px;
     }
 
+    .box-avtoModdel__img {
+        margin: 1% auto;
+    }
+    .box-avtoModdel__link:first-child .box-avtoModdel__img{
 
+        margin-top: 5%;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -47,14 +53,37 @@
 
 
 }
+@media only screen and (max-width: 530px) {
+
+
+    .box-sliderOne__item {
+        max-height: 80px;
+    }
+
+    .box-aboutGbo__phrase{
+        font-size: 1em;
+    }
+
+}
+
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
 
 
     .box-sliderOne__item {
-        max-height: 90px;
+        max-height: 65px;
     }
+
+    .box-aboutGbo__phrase{
+        font-size: 0.9em;
+    }
+
+    .box-aboutGbo__mainText{
+        font-size: 0.6em;
+    }
+
 }
 
 /* Custom, iPhone Retina */
@@ -62,7 +91,7 @@
 
 
     .box-sliderOne__item {
-        max-height: 80px;
+        max-height: 55px;
     }
 }
 
