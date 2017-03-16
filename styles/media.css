@@ -21,10 +21,16 @@
     .box-avtoModdel__img {
         margin: 1% auto;
     }
-    .box-avtoModdel__link:first-child .box-avtoModdel__img{
+    .box-avtoModdel__linkFirst{
 
         margin-top: 5%;
     }
+
+
+    .box-gbo__offer-text{
+        font-size: 2em;
+    }
+
 }
 
 /* Small Devices, Tablets */
@@ -64,6 +70,9 @@
         font-size: 1em;
     }
 
+    .box-gbo__offer-text{
+        font-size: 1.5em;
+    }
 }
 
 

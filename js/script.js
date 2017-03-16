@@ -25,6 +25,14 @@ window.onload = function () {
         });
     });
 
+    $(window).on("load", function () {
+        $('.box-gbo__offer-image').liCover({
+            parent: $('.box-gbo__offer'),
+            position: 'absolute',
+            veticalAlign: 'middle',
+            align: 'center'
+        });
+    });
 
 
 

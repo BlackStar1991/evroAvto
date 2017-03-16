@@ -142,7 +142,7 @@ $colorMainText: #8c8c8c;
 
   width: 100%;
   min-width: 250px; ///////// &&&
-  min-height: 108px;
+  //min-height: 108px;
 
   z-index: 100;
   color: #fff;
@@ -489,14 +489,8 @@ main {
 .box-gbo__offer {
   position: relative;
   width: 100%;
-  min-height: 200px;
-  margin: 4% 0;
-  //border-radius: 20px;
-  //
-  //-webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.75);
-  //-moz-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.75);
-  //box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.75);
 
+  margin: 4% 0;
   background-color: $colorbgTextBloc;
   border: 1px solid #000;
   overflow: hidden;
@@ -519,13 +513,7 @@ main {
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
-  //text-shadow: black 2px 2px 0,
-  //black -2px -2px 0,
-  //black -2px 2px 0,
-  //black 2px -2px 0;
-
   padding: 2px;
-  //border: 5px solid $colorbg;
   background: rgba(0,0,0, 0.5);
 
 }
